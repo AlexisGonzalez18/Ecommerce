@@ -41,10 +41,3 @@ ecommerce/
 -  **Performance:** Uso de Server Components de Next.js para carga instantánea.
 
 ---
-
-##  Instalación Local
-
-Si quieres probar este proyecto en tu máquina, sigue estos pasos:
-
-1. **Clonar el repo:**
-   git clone https://github.com
