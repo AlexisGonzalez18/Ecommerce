@@ -1,47 +1,50 @@
-# 🛒 Ecommerce  - Fullstack Project
+#  Ecommerce Name - Fullstack Project
 
-Este es un proyecto de E-commerce moderno
-
-<p align="left">
-  <img src="https://img.shields.io" alt="Next.js" />
-  <img src="https://img.shields.io" alt="TypeScript" />
-  <img src="https://img.shields.io" alt="Tailwind CSS" />
-  <img src="https://img.shields.io" alt="Supabase" />
-</p>
+[![Proyecto Público](https://img.shields.io/badge/proyecto-publico-blue?logo=github)](.)
+[![Estado](https://img.shields.io/badge/En-desarrollo-red)](.)
+[![Versión](https://img.shields.io/badge/version-1.0-orange?)](.)
 
 
+Este es un proyecto de E-commerce moderno construido con **Next.js 15**, **Tailwind CSS** y **Supabase**. Diseñado para ser rápido, escalable y con una experiencia de usuario fluida.
 
 ---
 
-## 🖼️ Preview
+###  TECNOLOGÍAS PRINCIPALES
 
-
----
-
-## 🚀 Tecnologías Utilizadas
-
-### Frontend & UI
-- **Next.js 15 (App Router):** Renderizado híbrido para máxima velocidad.
-- **TypeScript:** Tipado estricto para evitar errores en producción.
-- **Tailwind CSS:** Diseño responsivo y moderno basado en utilidades.
-- **Lucide React:** Set de iconos limpios y consistentes.
-
-### Backend & Cloud
-- **Supabase:** Base de datos relacional (PostgreSQL), Autenticación y Storage de imágenes.
-- **Stripe:** (Próximamente) Pasarela de pagos segura en modo test.
+![Next.js 15](https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Tailwind CSS 3.4](https://img.shields.io/badge/Tailwind%20CSS-06B6D4.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white)
+![TypeScript 5.0](https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E.svg?style=for-the-badge&logo=Supabase&logoColor=white)
 
 ---
 
-## 📦 Arquitectura del Proyecto
-
-El proyecto sigue una estructura modular y escalable (Screaming Architecture):
+##  Arquitectura del Proyecto
 
 ```text
 ecommerce/
-├── frontend/             # Aplicación Next.js (Interfaz de usuario)
-│   ├── app/              # Rutas y páginas (App Router)
-│   ├── components/       # Bloques UI (ui, common, product, cart)
-│   ├── lib/              # Configuración (Supabase Client, Utils)
-│   ├── hooks/            # Lógica de estado personalizada (Custom Hooks)
-│   └── types/            # Interfaces de TypeScript
-└── .gitignore            # Protección de credenciales y archivos locales
+├── frontend/             # Aplicación Next.js
+│   ├── app/              # Rutas y páginas
+│   ├── components/       # UI Reutilizable
+│   ├── lib/              # Configuración de Supabase
+│   └── hooks/            # Lógica de estado
+└── README.md             # Documentación principal
+
+
+---
+
+##  Características Principales
+
+-  **Autenticación:** Login seguro con Google y Email vía Supabase Auth.
+-  **Carrito de Compras:** Gestión de estado persistente para no perder productos.
+-  **Responsive Design:** Optimizado para móviles, tablets y escritorio.
+-  **Pagos Seguros:** Integración  para flujos de pago reales.
+-  **Performance:** Uso de Server Components de Next.js para carga instantánea.
+
+---
+
+##  Instalación Local
+
+Si quieres probar este proyecto en tu máquina, sigue estos pasos:
+
+1. **Clonar el repo:**
+   git clone https://github.com
