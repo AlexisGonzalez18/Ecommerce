@@ -1,4 +1,5 @@
 import Navbar from "@/components/common/navbar";
+
 import "./globals.css";
 //Aqui se podria importar un componente de layout para toda la app, como un header o footer, y envolver el children con ese componente para que se muestre en todas las paginas.
 

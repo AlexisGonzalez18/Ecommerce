@@ -1,5 +1,4 @@
-// app/components/Navbar.tsx
-'use client';
+'use client';// Este componente es un ejemplo de cómo podrías mostrar una cuadrícula de productos en tu página de productos.
 
 import Link from 'next/link';
 import { useState } from 'react';
