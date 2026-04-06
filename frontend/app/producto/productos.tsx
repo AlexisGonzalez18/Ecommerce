@@ -43,7 +43,8 @@ const ProductList = ({ products }: { products: IProducto[] }) => {// Componente 
   return (
     <div className="bg-gray-50 py-8">
       <div className="container mx-auto px-4">
-        {/* Header estilo Falabella/SoloTodo */}
+
+        {/* Header*/}
         <div className="flex justify-between items-end mb-6">
           <div>
             <h2 className="text-2xl font-bold text-gray-800">Productos destacados</h2>
@@ -100,7 +101,7 @@ const ProductList = ({ products }: { products: IProducto[] }) => {// Componente 
                 </div>
               </div>
 
-              {/* Botón Verde estilo Falabella */}
+              {/* Botón */}
               <button className="w-full mt-4 bg-red-600 hover:bg-red-700 text-white font-bold py-2 rounded-md text-xs transition-colors flex items-center justify-center gap-2">
                 <ShoppingCart className="w-4 h-4" />
                 AGREGAR
